@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net48</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <UseWpf>true</UseWpf>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="MVTec.HalconDotNet" Version="22050.0.0" />
+        <PackageReference Include="ViDi.NET.Local" Version="6.0.0.24999" />
+    </ItemGroup>
+</Project>
